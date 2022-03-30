@@ -37,4 +37,21 @@
         <h1>6. git pull</h1>
         <p>The git pull command is used to fetch and download content from a remote repository and immediately update the local repository to match that content. Merging remote upstream changes into your local repository is a common task in Git-based collaboration work flows. The git pull command is actually a combination of two other commands, git fetch followed by git merge. In the first stage of operation git pull will execute a git fetch scoped to the local branch that HEAD is pointed at. Once the content is downloaded, git pull will enter a merge workflow. A new merge commit will be-created and HEAD updated to point at the new commit.</p>
       </div>
+      <div>
+        <h1>7. git checkout</h1>
+        <p>To create a new branch use: git checkout -b branchname</p>
+        <p>To switch between branches we use: git checkout branchname</p>
+      </div>
+      <div><h1>8. git branch</h1>
+      <p>Use this command to view the information about branches in a repository.</p>
+        <p>To delete a branch run command: git branch -d branchname</p>
+      
+    </div>
+      <div>
+        <h1>9. git clone</h1>
+        <p>
+          git clone is primarily used to point to an existing repo and make a clone or copy of that repo at in a new directory, at another location. The original repository can be located on the local filesystem or on remote machine accessible supported protocols. The git clone command copies an existing Git repository. This is sort of like SVN checkout, except the “working copy” is a full-fledged Git repository—it has its own history, manages its own files, and is a completely isolated environment from the original repository.
+        </p>
+        <p>As a convenience, cloning automatically creates a remote connection called "origin" pointing back to the original repository. This makes it very easy to interact with a central repository. This automatic connection is established by creating Git refs to the remote branch heads under refs/remotes/origin and by initializing remote.origin.url and remote.origin.fetch configuration variables.</p>
+      </div>
 </html>
